@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:mobile/Screens/add.dart';
 import 'package:mobile/Screens/home.dart';
 import 'package:mobile/Screens/statistics.dart';
+import 'package:mobile/Screens/wallet.dart';
 
 class Bottom extends StatefulWidget {
   const Bottom({Key? key}) : super(key: key);
@@ -12,7 +13,7 @@ class Bottom extends StatefulWidget {
 
 class _BottomState extends State<Bottom> {
   int index_color = 0;
-  List Screen = [Home(), Statistics(), Home(), Statistics()];
+  List Screen = [Home(), Statistics(), Wallet(), Statistics()];
   @override
   Widget build(BuildContext context) {
     return Scaffold(

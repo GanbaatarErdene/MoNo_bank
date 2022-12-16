@@ -42,16 +42,16 @@ class _StatisticsState extends State<Statistics> {
         SliverToBoxAdapter(
           child: Column(
             children: [
-              SizedBox(height: 18),
+              SizedBox(height: 20),
               Text(
                 'Statistics',
                 style: TextStyle(
                   color: Colors.black,
-                  fontSize: 19,
+                  fontSize: 20,
                   fontWeight: FontWeight.w700,
                 ),
               ),
-              SizedBox(height: 15),
+              SizedBox(height: 20),
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 15),
                 child: Row(
@@ -68,8 +68,8 @@ class _StatisticsState extends State<Statistics> {
                             });
                           },
                           child: Container(
-                            height: 27,
-                            width: 65,
+                            height: 30,
+                            width: 70,
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(10),
                               color: index_color == index
@@ -83,7 +83,7 @@ class _StatisticsState extends State<Statistics> {
                                 color: index_color == index
                                     ? Colors.white
                                     : Colors.black,
-                                fontSize: 14,
+                                fontSize: 15,
                                 fontWeight: FontWeight.w500,
                               ),
                             ),
@@ -94,11 +94,11 @@ class _StatisticsState extends State<Statistics> {
                   ],
                 ),
               ),
-              SizedBox(height: 15),
+              SizedBox(height: 20),
               Chart(
                 indexx: index_color,
               ),
-              SizedBox(height: 10),
+              SizedBox(height: 20),
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 15),
                 child: Row(
@@ -128,7 +128,7 @@ class _StatisticsState extends State<Statistics> {
                 return ListTile(
                   leading: ClipRRect(
                     borderRadius: BorderRadius.circular(5),
-                    child: Image.asset('images/${a[index].name}.png', height: 35),
+                    child: Image.asset('images/${a[index].name}.png', height: 40),
                   ),
                   title: Text(
                     a[index].name,

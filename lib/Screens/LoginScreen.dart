@@ -15,13 +15,15 @@ class LogInScreen  extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.start,
             children: <Widget>[
               Padding(
-                padding: const EdgeInsets.only(top: 20.0),
-                child: Image.asset('assets/man.png',
-                    height: 400,
-                    width: 400,),
+                padding: const EdgeInsets.only(top: 0),
+                // padding: const EdgeInsets.only(top: 20.0),
+                child: Image.asset('images/man1.png',
+                    height: 430,
+                    // width: 400,
+                ),
               ),
               Container(
-                margin: const EdgeInsets.only(top: 30.0),
+                margin: const EdgeInsets.only(top: 0.0),
                 // padding: const EdgeInsets.all(10.0),
                 width: 250,
                 child: Center(
@@ -39,7 +41,7 @@ class LogInScreen  extends StatelessWidget {
                 ),
               ),
               Padding(
-                padding: const EdgeInsets.only(top: 40.0),
+                padding: const EdgeInsets.only(top: 30.0),
                 child: Container(
                   child: ElevatedButton(
                     style: ElevatedButton.styleFrom(
@@ -58,7 +60,7 @@ class LogInScreen  extends StatelessWidget {
                         borderRadius: BorderRadius.circular(80),
                       ),
                       child: Container(
-                        width: 330,
+                        width: 300,
                         height: 60,
                         alignment: Alignment.center,
                         child: Text('Get Started',

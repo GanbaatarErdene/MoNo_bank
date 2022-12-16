@@ -4,5 +4,4 @@ class money {
   String? time;
   String? fee;
   bool? buy;
-
 }

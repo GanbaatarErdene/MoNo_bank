@@ -42,7 +42,7 @@ class _ChartState extends State<Chart> {
     }
     return Container(
       width: double.infinity,
-      height: 250,
+      height: 240,
       child: SfCartesianChart(
         primaryXAxis: CategoryAxis(),
         series: <SplineSeries<SalesData, String>>[
